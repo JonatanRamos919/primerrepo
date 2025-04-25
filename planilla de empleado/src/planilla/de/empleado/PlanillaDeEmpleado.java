@@ -17,7 +17,7 @@ public class PlanillaDeEmpleado {
     public static void main(String[] args) {
         try ( // TODO code application logic here
                 Scanner scanner = new Scanner(System.in)) {
-            String nombreEmpleado = scanner.next("Jonatan Ramos");
+            String nombreEmpleado = scanner.next("Jonatan Ramos hola");
             int horasMensuales = scanner.nextInt(160) ;
             int tarifaHora = scanner.nextInt(500);
             int salarioSemanal = scanner.nextInt(20000);
